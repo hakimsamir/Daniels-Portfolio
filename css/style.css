@@ -1,0 +1,505 @@
+/* start home page */
+.home {
+    background-image     : url(../img/bg.jpg);
+    background-position  : top;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home_content h4 {
+    font-size: 50px;
+}
+
+.home_content i {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size       : 15px;
+    width           : 35px;
+    height          : 35px;
+    border-radius   : 50%;
+    left            : 50%;
+    transform       : translateX(-50%);
+}
+
+.home_content h1 {
+    font-size  : 65px;
+    font-weight: 200px;
+}
+
+.home_content h1::after {
+    content  : "";
+    animation: typing 5s infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "I Am Larry Daniels |";
+    }
+
+    11% {
+        content: "I Am Larry Daniel |";
+    }
+
+    14% {
+        content: "I Am Larry Danie |";
+    }
+
+    16% {
+        content: "I Am Larry Dani |";
+    }
+
+    18% {
+        content: "I Am Larry Dan |";
+    }
+
+    20% {
+        content: "I Am Larry Da |";
+    }
+
+    22% {
+        content: "I Am Larry D |";
+    }
+
+    24% {
+        content: "I Am Larry |";
+    }
+
+    26% {
+        content: "I Am Larr |";
+    }
+
+    28% {
+        content: "I Am Lar |";
+    }
+
+    30% {
+        content: "I Am La |";
+    }
+
+    32% {
+        content: "I Am L |";
+    }
+
+    34% {
+        content: "I Am  |";
+    }
+
+    36% {
+        content: "I Am Developer |";
+    }
+
+    46% {
+        content: "I Am Developer |";
+    }
+
+    48% {
+        content: "I Am Develope |";
+    }
+
+    50% {
+        content: "I Am Develop |";
+    }
+
+    52% {
+        content: "I Am Develo |";
+    }
+
+    54% {
+        content: "I Am Devel |";
+    }
+
+    56% {
+        content: "I Am Deve |";
+    }
+
+    58% {
+        content: "I Am Dev |";
+    }
+
+    60% {
+        content: "I Am De |";
+    }
+
+    62% {
+        content: "I Am D |";
+    }
+
+    64% {
+        content: "I Am  |";
+    }
+
+    66% {
+        content: "I Am  |";
+    }
+
+    76% {
+        content: "I Am Designer |";
+    }
+
+    78% {
+        content: "I Am Designe |";
+    }
+
+    80% {
+        content: "I Am Design |";
+    }
+
+    82% {
+        content: "I Am Desig |";
+    }
+
+    84% {
+        content: "I Am Desi |";
+    }
+
+    86% {
+        content: "I Am Des |";
+    }
+
+    88% {
+        content: "I Am De |";
+    }
+
+    90% {
+        content: "I Am D |";
+    }
+
+    95% {
+        content: "I Am |";
+    }
+
+    100% {
+        content: "I Am |";
+    }
+}
+
+/* end home page */
+
+/* start about page */
+
+.about h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    position : absolute;
+    left     : 2%;
+    font-size: 16px;
+}
+
+.num {
+    position: absolute;
+    right   : 2%;
+}
+
+.progress {
+    height: 23px;
+}
+
+.about .btn1 {
+    width           : 150px;
+    border-radius   : 5px;
+    background-color: black;
+    color           : white;
+}
+
+.about .btn2 {
+    width           : 150px;
+    border-radius   : 5px;
+    color           : black;
+    border          : solid 1px;
+    background-color: white;
+}
+
+.about a {
+    text-decoration: none;
+    color          : black;
+}
+
+.about .btn1:hover {
+    color           : black;
+    background-color: white;
+    transition      : 0.5s;
+    border          : solid 1px;
+}
+
+.about .btn2:hover {
+    color           : white;
+    background-color: black;
+    transition      : 0.5s;
+}
+
+.about a:hover {
+    color: white;
+}
+
+/* end about page */
+
+/* start services page */
+
+.services {
+    background-color: #f7f7f7;
+}
+
+.services h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 40px;
+}
+
+.services_items i {
+    font-size       : 25px;
+    width           : 60px;
+    height          : 60px;
+    background-color: #e2e0e0;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    position        : relative;
+    left            : 50%;
+    transform       : translateX(-50%);
+
+}
+
+.services h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 18px;
+}
+
+.services p {
+    font-size: 14px;
+}
+
+.services_items:hover i {
+    background-color: black;
+    color           : white;
+    transition      : 0.7s;
+}
+
+/* end services page */
+
+/* start works page */
+
+.works h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 40px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    color           : black;
+    font-size       : 16px;
+    font-weight     : 700;
+    position        : relative;
+}
+
+.nav-pills .nav-link.active::after {
+    content         : "";
+    width           : 20px;
+    height          : 2px;
+    background-color: black;
+    position        : absolute;
+    bottom          : 0%;
+    left            : 50%;
+    transform       : translateX(-50%);
+}
+
+.nav-pills .nav-link {
+    color      : black;
+    font-size  : 16px;
+    font-weight: 700;
+}
+
+
+.works_layer {
+    background-color: rgba(255, 255, 255, 0.95);
+    opacity         : 0;
+    transition      : all 0.5s;
+}
+
+.icons i {
+
+    width           : 35px;
+    height          : 35px;
+    border-radius   : 50%;
+    background-color: black;
+    color           : white;
+    padding         : 9px;
+    font-size       : 15px;
+}
+
+.icons i:hover {
+    color           : black;
+    background-color: white;
+    transition      : 0.5s;
+    border          : solid black 1px;
+}
+
+.works .works_item:hover .works_layer {
+    opacity: 1;
+    border : solid 6px #b4b1b1;
+}
+
+/* end works page */
+
+/* start clients page */
+
+.clients {
+    background-color: #e2e0e0;
+}
+
+.clients h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 40px;
+}
+
+.carousel-item h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 16px;
+    color      : black;
+}
+
+.clients .carousel-indicators [data-bs-target] {
+    width           : 10px;
+    height          : 10px;
+    background-color: #706f6f;
+    border-radius   : 50%;
+}
+
+.clients.carousel-indicators [data-bs-target]:hover {
+    background-color: #444343;
+}
+
+/* end clients page */
+
+/* start counter page */
+
+.counter h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 30px;
+    font-weight: 900;
+}
+
+.counter p {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 15px;
+    font-weight: 600;
+}
+
+.counter i {
+    font-size: 30px;
+}
+
+/* end counter page */
+
+/* start blog page */
+
+.blog {
+    background-color: #e2e0e0;
+}
+
+.blog h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 40px;
+    font-weight: 900;
+}
+
+.blog .carousel-indicators [data-bs-target] {
+    width           : 10px;
+    height          : 10px;
+    background-color: #706f6f;
+    border-radius   : 50%;
+}
+
+.blog.carousel-indicators [data-bs-target]:hover {
+    background-color: #444343;
+}
+
+.blog h4 a {
+    text-decoration: none;
+    font-size      : 20px;
+    font-weight    : 800;
+    color          : black;
+}
+
+.blog .more a {
+    font-size  : 14px;
+    font-weight: 400;
+}
+
+.blog h5 {
+    font-size: 14px;
+}
+
+.card-img-top {
+c
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+
+/* end blog page */
+
+/* start contact page */
+.contact h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 30px;
+    font-weight: 900;
+}
+
+.contact h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.contact i {
+    font-size       : 25px;
+    width           : 60px;
+    height          : 60px;
+    background-color: #e2e0e0;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    position        : relative;
+    left            : 50%;
+    transform       : translateX(-50%);
+}
+
+.contact_items:hover i {
+    background-color: black;
+    color           : white;
+    transition      : 0.7s;
+}
+
+.contact .btn {
+    width           : 120px;
+    height          : 40px;
+    border-radius   : 5px;
+    background-color: black;
+    color           : white;
+}
+
+.contact .btn:hover {
+    color           : black;
+    background-color: white;
+    transition      : 0.6s;
+}
+
+.contact .btn:hover a {
+    color: black;
+}
+
+.contact .btn a {
+    text-decoration: none;
+    color          : white;
+}
+
+/* end contact page */
